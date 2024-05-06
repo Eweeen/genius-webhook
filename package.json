@@ -1,0 +1,16 @@
+{
+  "name": "genius-webhook",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@elysiajs/cron": "^1.0.3",
+    "axios": "^1.6.8",
+    "date-fns": "^3.6.0"
+  }
+}
